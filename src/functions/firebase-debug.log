@@ -1,0 +1,240 @@
+[debug] [2024-06-22T13:10:33.460Z] ----------------------------------------------------------------------
+[debug] [2024-06-22T13:10:33.467Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Veronica\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-06-22T13:10:33.468Z] CLI Version:   13.11.4
+[debug] [2024-06-22T13:10:33.468Z] Platform:      win32
+[debug] [2024-06-22T13:10:33.469Z] Node Version:  v20.15.0
+[debug] [2024-06-22T13:10:33.469Z] Time:          Sat Jun 22 2024 08:10:33 GMT-0500 (hora estándar de Perú)
+[debug] [2024-06-22T13:10:33.470Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-22T13:10:33.986Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-22T13:10:33.987Z] > authorizing via signed-in user (veronicasj517@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-06-22T13:10:34.044Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-22T13:10:34.045Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-22T13:10:34.058Z] [hub] writing locator at C:\Users\Veronica\AppData\Local\Temp\hub-test-7cd09.json
+[debug] [2024-06-22T13:10:34.115Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-22T13:10:34.128Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-22T13:10:34.128Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-06-22T13:10:34.140Z] defaultcredentials: writing to file C:\Users\Veronica\AppData\Roaming\firebase\veronicasj517_gmail_com_application_default_credentials.json
+[debug] [2024-06-22T13:10:34.161Z] Setting GAC to C:\Users\Veronica\AppData\Roaming\firebase\veronicasj517_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Veronica\\AppData\\Roaming\\firebase\\veronicasj517_gmail_com_application_default_credentials.json"}}
+[debug] [2024-06-22T13:10:34.166Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-7cd09/adminSdkConfig [none]
+[debug] [2024-06-22T13:10:34.567Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-7cd09/adminSdkConfig 200
+[debug] [2024-06-22T13:10:34.567Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-7cd09/adminSdkConfig {"projectId":"test-7cd09","storageBucket":"test-7cd09.appspot.com"}
+[info] i  ui: downloading ui-v1.12.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.12.1.zip..."}}
+[debug] [2024-06-22T13:10:34.611Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 
+[debug] [2024-06-22T13:10:34.913Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 200
+[debug] [2024-06-22T13:10:34.913Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip [stream]
+[debug] [2024-06-22T13:10:36.193Z] Data is 3498269
+[debug] [2024-06-22T13:10:36.194Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:36.194Z] [unzip] Processing entry: client\
+[debug] [2024-06-22T13:10:36.194Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\
+[debug] [2024-06-22T13:10:36.195Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2024-06-22T13:10:36.195Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2024-06-22T13:10:36.196Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.196Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\favicon.ico
+[debug] [2024-06-22T13:10:36.205Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2024-06-22T13:10:36.206Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2024-06-22T13:10:36.206Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.206Z] [unzip] Writing file: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\mstile-150x150.png
+[debug] [2024-06-22T13:10:36.209Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2024-06-22T13:10:36.209Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2024-06-22T13:10:36.209Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.210Z] [unzip] Writing file: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\favicon-16x16.png
+[debug] [2024-06-22T13:10:36.211Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2024-06-22T13:10:36.211Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2024-06-22T13:10:36.211Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.212Z] [unzip] Writing file: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\favicon-32x32.png
+[debug] [2024-06-22T13:10:36.213Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2024-06-22T13:10:36.213Z] [unzip] Processing entry: client\manifest.json
+[debug] [2024-06-22T13:10:36.213Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.214Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\manifest.json
+[debug] [2024-06-22T13:10:36.216Z] [unzip] Entry: client/index.html (compressed_size=1365 bytes, uncompressed_size=3071 bytes)
+[debug] [2024-06-22T13:10:36.216Z] [unzip] Processing entry: client\index.html
+[debug] [2024-06-22T13:10:36.216Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.217Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\index.html
+[debug] [2024-06-22T13:10:36.219Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2024-06-22T13:10:36.220Z] [unzip] Processing entry: client\robots.txt
+[debug] [2024-06-22T13:10:36.220Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.221Z] [unzip] Writing file: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\robots.txt
+[debug] [2024-06-22T13:10:36.222Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2024-06-22T13:10:36.222Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2024-06-22T13:10:36.222Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:36.236Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\android-chrome-512x512.png
+[debug] [2024-06-22T13:10:36.254Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:36.254Z] [unzip] Processing entry: client\assets\
+[debug] [2024-06-22T13:10:36.254Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\
+[debug] [2024-06-22T13:10:36.255Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:36.255Z] [unzip] Processing entry: client\assets\img\
+[debug] [2024-06-22T13:10:36.255Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\img\
+[debug] [2024-06-22T13:10:36.256Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2024-06-22T13:10:36.256Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2024-06-22T13:10:36.256Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\img
+[debug] [2024-06-22T13:10:36.257Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\img\database.png
+[debug] [2024-06-22T13:10:36.262Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:36.263Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2024-06-22T13:10:36.263Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\
+[debug] [2024-06-22T13:10:36.276Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2024-06-22T13:10:36.277Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-06-22T13:10:36.278Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.288Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-06-22T13:10:36.297Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2024-06-22T13:10:36.297Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-06-22T13:10:36.297Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.307Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-06-22T13:10:36.315Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2024-06-22T13:10:36.316Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-06-22T13:10:36.316Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.316Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-06-22T13:10:36.327Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2024-06-22T13:10:36.327Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-06-22T13:10:36.327Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.328Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-06-22T13:10:36.331Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2024-06-22T13:10:36.331Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-06-22T13:10:36.331Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.358Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-06-22T13:10:36.386Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2024-06-22T13:10:36.387Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-06-22T13:10:36.392Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.393Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-06-22T13:10:36.421Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2024-06-22T13:10:36.421Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-06-22T13:10:36.422Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.422Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-06-22T13:10:36.427Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2024-06-22T13:10:36.427Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-06-22T13:10:36.427Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.428Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-06-22T13:10:36.456Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2024-06-22T13:10:36.456Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-06-22T13:10:36.456Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.457Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-06-22T13:10:36.470Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2024-06-22T13:10:36.471Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-06-22T13:10:36.472Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.474Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-06-22T13:10:36.500Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2024-06-22T13:10:36.500Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-06-22T13:10:36.500Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.504Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-06-22T13:10:36.506Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2024-06-22T13:10:36.506Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-06-22T13:10:36.507Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.507Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-06-22T13:10:36.511Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2024-06-22T13:10:36.512Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-06-22T13:10:36.512Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-22T13:10:36.513Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-06-22T13:10:36.536Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:36.536Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2024-06-22T13:10:36.536Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions\
+[debug] [2024-06-22T13:10:36.541Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2024-06-22T13:10:36.541Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2024-06-22T13:10:36.541Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions
+[debug] [2024-06-22T13:10:36.542Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions\default-extension.png
+[debug] [2024-06-22T13:10:36.554Z] [unzip] Entry: client/assets/index-Cj5I7867.css (compressed_size=35786 bytes, uncompressed_size=297937 bytes)
+[debug] [2024-06-22T13:10:36.554Z] [unzip] Processing entry: client\assets\index-Cj5I7867.css
+[debug] [2024-06-22T13:10:36.554Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-22T13:10:36.556Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-Cj5I7867.css
+[debug] [2024-06-22T13:10:36.598Z] [unzip] Entry: client/assets/index-JXEx31eZ.js (compressed_size=563896 bytes, uncompressed_size=2020866 bytes)
+[debug] [2024-06-22T13:10:36.599Z] [unzip] Processing entry: client\assets\index-JXEx31eZ.js
+[debug] [2024-06-22T13:10:36.599Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-22T13:10:36.622Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-JXEx31eZ.js
+[debug] [2024-06-22T13:10:36.755Z] [unzip] Entry: client/assets/index-JXEx31eZ.js.map (compressed_size=2229196 bytes, uncompressed_size=9596104 bytes)
+[debug] [2024-06-22T13:10:36.755Z] [unzip] Processing entry: client\assets\index-JXEx31eZ.js.map
+[debug] [2024-06-22T13:10:36.755Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-22T13:10:36.756Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-JXEx31eZ.js.map
+[debug] [2024-06-22T13:10:37.306Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2024-06-22T13:10:37.306Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2024-06-22T13:10:37.307Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:37.307Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\safari-pinned-tab.svg
+[debug] [2024-06-22T13:10:37.310Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2024-06-22T13:10:37.311Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2024-06-22T13:10:37.311Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:37.312Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\browserconfig.xml
+[debug] [2024-06-22T13:10:37.325Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2024-06-22T13:10:37.325Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2024-06-22T13:10:37.325Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:37.327Z] [unzip] Writing file: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\android-chrome-192x192.png
+[debug] [2024-06-22T13:10:37.343Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2024-06-22T13:10:37.344Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2024-06-22T13:10:37.344Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-22T13:10:37.345Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\client\apple-touch-icon.png
+[debug] [2024-06-22T13:10:37.362Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:37.363Z] [unzip] Processing entry: server\
+[debug] [2024-06-22T13:10:37.363Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\
+[debug] [2024-06-22T13:10:37.365Z] [unzip] Entry: server/server.mjs.map (compressed_size=286219 bytes, uncompressed_size=1310517 bytes)
+[debug] [2024-06-22T13:10:37.365Z] [unzip] Processing entry: server\server.mjs.map
+[debug] [2024-06-22T13:10:37.365Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server
+[debug] [2024-06-22T13:10:37.376Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\server.mjs.map
+[debug] [2024-06-22T13:10:37.427Z] [unzip] Entry: server/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-22T13:10:37.427Z] [unzip] Processing entry: server\assets\
+[debug] [2024-06-22T13:10:37.427Z] [unzip] mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\assets\
+[debug] [2024-06-22T13:10:37.428Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs.map (compressed_size=4790 bytes, uncompressed_size=17920 bytes)
+[debug] [2024-06-22T13:10:37.429Z] [unzip] Processing entry: server\assets\multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-22T13:10:37.429Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\assets
+[debug] [2024-06-22T13:10:37.445Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\assets\multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-22T13:10:37.466Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs (compressed_size=2625 bytes, uncompressed_size=10428 bytes)
+[debug] [2024-06-22T13:10:37.467Z] [unzip] Processing entry: server\assets\multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-22T13:10:37.467Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\assets
+[debug] [2024-06-22T13:10:37.467Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\assets\multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-22T13:10:37.471Z] [unzip] Entry: server/server.mjs (compressed_size=311497 bytes, uncompressed_size=1147307 bytes)
+[debug] [2024-06-22T13:10:37.472Z] [unzip] Processing entry: server\server.mjs
+[debug] [2024-06-22T13:10:37.472Z] [unzip] else mkdir: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server
+[debug] [2024-06-22T13:10:37.472Z] [unzip] deflating: C:\Users\Veronica\.cache\firebase\emulators\ui-v1.12.1\server\server.mjs
+[debug] [2024-06-22T13:10:37.564Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-22T13:10:37.564Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-22T13:10:37.565Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Veronica\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Veronica\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-22T13:10:38.226Z] Debugger attached.
+ {"metadata":{"emulator":{"name":"ui"},"message":"Debugger attached.\r\n"}}
+[debug] [2024-06-22T13:10:38.509Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-22T13:10:38.511Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\xampp\htdocs\PruebaTecnica\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\xampp\\htdocs\\PruebaTecnica\\functions\" for Cloud Functions..."}}
+[debug] [2024-06-22T13:10:38.727Z] Validating nodejs source
+[debug] [2024-06-22T13:10:43.022Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-22T13:10:43.023Z] Building nodejs source
+[debug] [2024-06-22T13:10:43.024Z] Failed to find version of module node: reached end of search path C:\xampp\htdocs\PruebaTecnica\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-22T13:10:43.032Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-22T13:10:43.044Z] Found firebase-functions binary at 'C:\xampp\htdocs\PruebaTecnica\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8722
+
+[error] ReferenceError: functions is not defined
+    at Object.<anonymous> (C:\xampp\htdocs\PruebaTecnica\functions\index.js:19:15)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at loadModule (C:\xampp\htdocs\PruebaTecnica\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\xampp\htdocs\PruebaTecnica\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at C:\xampp\htdocs\PruebaTecnica\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2024-06-22T13:10:44.681Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: functions is not defined
